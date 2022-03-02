@@ -72,8 +72,8 @@
 				7522F1E127CEB130006A5AB7 /* LaunchScreen.storyboard */,
 				7522F1E427CEB130006A5AB7 /* Info.plist */,
 				7522F1EA27CEBCAB006A5AB7 /* SearchResult.swift */,
-				7522F1EC27CEBFF2006A5AB7 /* SearchResultCell.xib */,
 				7522F1EE27CEC66C006A5AB7 /* SearchResultCell.swift */,
+				7522F1EC27CEBFF2006A5AB7 /* SearchResultCell.xib */,
 				7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */,
 			);
 			path = StoreSearch;
