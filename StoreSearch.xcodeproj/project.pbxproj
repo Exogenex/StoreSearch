@@ -17,6 +17,7 @@
 		7522F1ED27CEBFF2006A5AB7 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7522F1EC27CEBFF2006A5AB7 /* SearchResultCell.xib */; };
 		7522F1EF27CEC66C006A5AB7 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522F1EE27CEC66C006A5AB7 /* SearchResultCell.swift */; };
 		7522F1F127CEC8B9006A5AB7 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */; };
+		7522F1F327CEF9CB006A5AB7 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7522F1F227CEF9CB006A5AB7 /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7522F1EC27CEBFF2006A5AB7 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		7522F1EE27CEC66C006A5AB7 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		7522F1F227CEF9CB006A5AB7 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				7522F1EE27CEC66C006A5AB7 /* SearchResultCell.swift */,
 				7522F1EC27CEBFF2006A5AB7 /* SearchResultCell.xib */,
 				7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */,
+				7522F1F227CEF9CB006A5AB7 /* LoadingCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				7522F1E327CEB130006A5AB7 /* LaunchScreen.storyboard in Resources */,
 				7522F1E027CEB130006A5AB7 /* Assets.xcassets in Resources */,
+				7522F1F327CEF9CB006A5AB7 /* LoadingCell.xib in Resources */,
 				7522F1ED27CEBFF2006A5AB7 /* SearchResultCell.xib in Resources */,
 				7522F1F127CEC8B9006A5AB7 /* NothingFoundCell.xib in Resources */,
 				7522F1DE27CEB12E006A5AB7 /* Main.storyboard in Resources */,
