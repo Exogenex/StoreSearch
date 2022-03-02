@@ -33,27 +33,51 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="bLB-Rb-WaB"/>
                                 </connections>
                             </searchBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ2-kj-5B1">
+                                <rect key="frame" x="0.0" y="51" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" id="QYg-7u-bRc">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="lAZ-m9-yeK">
+                                            <rect key="frame" x="16" y="5.5" width="343" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="All"/>
+                                                <segment title="Music"/>
+                                                <segment title="Software"/>
+                                                <segment title="E-books"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="segmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="RiD-4X-a5W"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ZQ2-kj-5B1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Xq-WI-Ew8"/>
                             <constraint firstItem="0fE-r6-Fa7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1vS-o6-4a3"/>
                             <constraint firstItem="HTW-Oc-r6r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2nD-H5-PKl"/>
+                            <constraint firstItem="ZQ2-kj-5B1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OWE-A9-Mei"/>
                             <constraint firstItem="HTW-Oc-r6r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PXH-08-Q4B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HTW-Oc-r6r" secondAttribute="bottom" id="THZ-Of-2pB"/>
                             <constraint firstItem="0fE-r6-Fa7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aWU-GL-KPB"/>
+                            <constraint firstItem="ZQ2-kj-5B1" firstAttribute="top" secondItem="0fE-r6-Fa7" secondAttribute="bottom" id="gpT-g0-0Pf"/>
                             <constraint firstItem="0fE-r6-Fa7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iaZ-Kk-Mlr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HTW-Oc-r6r" secondAttribute="trailing" id="mir-O3-lZB"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="searchBar" destination="0fE-r6-Fa7" id="VHP-6n-uLz"/>
+                        <outlet property="segmentedControl" destination="lAZ-m9-yeK" id="1hO-SX-DcT"/>
                         <outlet property="tableView" destination="HTW-Oc-r6r" id="f3t-B2-0OY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="90"/>
+            <point key="canvasLocation" x="-16.800000000000001" y="89.505247376311857"/>
         </scene>
     </scenes>
     <resources>
