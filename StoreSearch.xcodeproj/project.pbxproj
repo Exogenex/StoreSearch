@@ -17,6 +17,7 @@
 		7522F1EF27CEC66C006A5AB7 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522F1EE27CEC66C006A5AB7 /* SearchResultCell.swift */; };
 		7522F1F127CEC8B9006A5AB7 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */; };
 		7522F1F327CEF9CB006A5AB7 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7522F1F227CEF9CB006A5AB7 /* LoadingCell.xib */; };
+		7522F1F527CF0A8D006A5AB7 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522F1F427CF0A8D006A5AB7 /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7522F1EE27CEC66C006A5AB7 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		7522F1F227CEF9CB006A5AB7 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		7522F1F427CF0A8D006A5AB7 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				7522F1EC27CEBFF2006A5AB7 /* SearchResultCell.xib */,
 				7522F1F027CEC8B9006A5AB7 /* NothingFoundCell.xib */,
 				7522F1F227CEF9CB006A5AB7 /* LoadingCell.xib */,
+				7522F1F427CF0A8D006A5AB7 /* UIImageView+DownloadImage.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				7522F1DB27CEB12E006A5AB7 /* SearchViewController.swift in Sources */,
 				7522F1D727CEB12E006A5AB7 /* AppDelegate.swift in Sources */,
+				7522F1F527CF0A8D006A5AB7 /* UIImageView+DownloadImage.swift in Sources */,
 				7522F1EB27CEBCAB006A5AB7 /* SearchResult.swift in Sources */,
 				7522F1D927CEB12E006A5AB7 /* SceneDelegate.swift in Sources */,
 				7522F1EF27CEC66C006A5AB7 /* SearchResultCell.swift in Sources */,
